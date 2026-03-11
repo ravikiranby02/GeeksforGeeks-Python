@@ -1,5 +1,3 @@
-"""Second Largest"""
-
 class Solution:
     def getSecondLargest(self, arr):
         filterd = list(set(arr))
@@ -8,4 +6,5 @@ class Solution:
             return -1
         
         filterd.sort()
+
         return filterd[-2]
