@@ -1,5 +1,3 @@
-"""Check the status - Python"""
-
 class Solution:
     def checkStatus(self, a, b, flag):
         
@@ -10,4 +8,5 @@ class Solution:
             return True
             
         else:
+
             return False
