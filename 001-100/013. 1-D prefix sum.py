@@ -1,5 +1,3 @@
-"""1-D prefix sum"""
-
 class Solution:
     def prefSum(self, arr):
         # code here
