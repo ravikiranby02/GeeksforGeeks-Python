@@ -4,7 +4,5 @@ class Solution:
         
         if len(filterd) < 2:
             return -1
-        
         filterd.sort()
-
         return filterd[-2]
