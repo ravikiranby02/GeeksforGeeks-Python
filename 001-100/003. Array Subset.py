@@ -8,5 +8,4 @@ class Solution:
             if x not in freq or freq[x] == 0:
                 return False
             freq[x] -= 1
-            
         return True
