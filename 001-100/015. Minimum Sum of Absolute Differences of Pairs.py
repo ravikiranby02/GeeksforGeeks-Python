@@ -1,5 +1,3 @@
-"""Minimum Sum of Absolute Differences of Pairs"""
-
 class Solution:
     def findMinSum(self, A,B,N):
         total = 0
