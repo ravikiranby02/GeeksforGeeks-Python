@@ -3,4 +3,5 @@ class Solution:
         for index in range(len(arr)):
             if arr[index] == x:
                 return index
+                
         return -1
