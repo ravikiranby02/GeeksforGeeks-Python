@@ -1,6 +1,5 @@
 class Solution:
     def prefSum(self, arr):
-        # code here
         total_sum = []
         count = 0
         for i in arr:
