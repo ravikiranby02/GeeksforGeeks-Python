@@ -1,7 +1,6 @@
 class Solution:
     def bubbleSort(self,arr):
         n = len(arr)
-        
         for i in range(n-2, -1, -1):
             is_swap = False
             
