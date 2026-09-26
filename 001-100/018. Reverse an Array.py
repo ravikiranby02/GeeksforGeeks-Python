@@ -3,7 +3,6 @@ class Solution:
         
         left = 0
         right = len(arr) -1
-        
         for i in range(len(arr) // 2):
             arr[left], arr[right] = arr[right], arr[left]
             left += 1
