@@ -4,5 +4,4 @@ class Solution:
         
         total.append(min(arr))
         total.append(max(arr))
-        
         return total
