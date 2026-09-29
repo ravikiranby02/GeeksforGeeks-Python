@@ -17,7 +17,6 @@ class Solution:
         j = 0
         k = l
         
-       
         while i < len(left) and j < len(right):
             if left[i] <= right[j]:
                 arr[k] = left[i]
