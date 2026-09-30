@@ -18,6 +18,5 @@ class Solution:
                 j -= 1
             if i < j:
                 arr[i], arr[j] = arr[j], arr[i]
-
         arr[low], arr[j] = arr[j], arr[low]
         return j
