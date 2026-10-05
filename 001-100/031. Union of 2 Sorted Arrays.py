@@ -26,5 +26,4 @@ class Solution:
             if len(result) == 0 or result[-1] != nums2[j]:
                 result.append(nums2[j])
             j += 1
-
         return result
