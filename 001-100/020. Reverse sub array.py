@@ -2,7 +2,6 @@ class Solution:
     def reverseSubArray(self, arr, l, r):
         l -= 1
         r -= 1
-
         def helper(arr, left, right):
             if left >= right:   
                 return
