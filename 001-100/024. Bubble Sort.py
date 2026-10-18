@@ -8,6 +8,5 @@ class Solution:
                 if arr[j] > arr[j+1]:
                     arr[j], arr[j+1] = arr[j+1], arr[j]
                     is_swap = True
-                
             if is_swap == False:
                 break
