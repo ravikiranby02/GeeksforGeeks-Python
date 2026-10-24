@@ -3,7 +3,6 @@ class Solution:
         r = []
         for row in mat:
             r.append(sum(row))
-            
         return r
 
         
