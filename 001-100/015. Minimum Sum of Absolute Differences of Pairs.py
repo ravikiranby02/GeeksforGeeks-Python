@@ -3,6 +3,7 @@ class Solution:
         total = 0
         R = sorted(A)
         K = sorted(B)
+        
         for i in range(N):
             total += abs(R[i] - K[i])
         return total
