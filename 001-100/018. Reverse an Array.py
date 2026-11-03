@@ -1,6 +1,5 @@
 class Solution:
     def reverseArray(self, arr):
-        
         left = 0
         right = len(arr) -1
         for i in range(len(arr) // 2):
